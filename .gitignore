@@ -6,6 +6,7 @@ platforms/
 !platforms/android/build.gradle
 plugins/
 res/
+www/
 .DS_Store
 ionic.config.json
 ionic.project
@@ -19,8 +20,6 @@ ionic.project
 *.tmp
 *.tmp.*
 log.txt
-*.sublime-project
-*.sublime-workspace
 .vscode/
 
 .sass-cache/
@@ -30,4 +29,3 @@ coverage/
 dist/
 tmp/
 temp/
-www
