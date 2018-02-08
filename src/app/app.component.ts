@@ -14,10 +14,8 @@ export class MyApp {
 
   constructor(authService: AuthService, platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     if (authService.authenticated) {
-      console.log('home');
       this.rootPage = HomePage;
     } else {
-      console.log('login');
       this.rootPage = LoginPage;
     }
     platform.ready().then(() => {

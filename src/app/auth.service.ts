@@ -10,7 +10,6 @@ export class AuthService {
   constructor(private http: Http) {}
 
   get authenticated() {
-    console.log(this.token !== null);
     return this.token !== null;
     }
 
