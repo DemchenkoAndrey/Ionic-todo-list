@@ -1,12 +1,12 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
-node_modules/
-platforms/
+node_modules
+platforms
 !platforms/android/build.gradle
 plugins/
 res/
-www/
+www
 .DS_Store
 ionic.config.json
 ionic.project
