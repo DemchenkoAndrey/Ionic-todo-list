@@ -1,0 +1,33 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+platforms/
+!platforms/android/build.gradle
+plugins/
+res/
+.DS_Store
+ionic.config.json
+ionic.project
+.idea/
+.io-config.json
+.sourcemaps
+
+
+*~
+*.sw[mnpcod]
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+.sass-cache/
+.tmp/
+.versions/
+coverage/
+dist/
+tmp/
+temp/
+www
